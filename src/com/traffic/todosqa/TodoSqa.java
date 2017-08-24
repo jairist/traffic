@@ -63,7 +63,7 @@ public class TodoSqa {
 			System.out.println(e.getMessage());
 			e.printStackTrace();
 		} finally {
-			// driver.close();
+			driver.close();
 		}
 
 	}
